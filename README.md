@@ -1,4 +1,3 @@
-HEAD
 # Rumbo - Agencia de viajes
 
 ## Temática y descripción
@@ -81,5 +80,3 @@ Las reglas están en `firestore.rules`: permiten lecturas públicas de esta cole
 La configuración web de Firebase de `src/firebase.js` es visible en el cliente; no incluyas claves privadas ni credenciales de cuentas de servicio.
 
 El proyecto predeterminado de Firebase se define en `.firebaserc`. Para apuntar a otro proyecto, usa `firebase use --add` y selecciona el proyecto correspondiente.
-
-# Rumbo
