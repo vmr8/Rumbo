@@ -33,8 +33,9 @@ firebase login
 firebase deploy --only hosting,firestore:rules
 ```
 
-<<<<<<< HEAD
-El proyecto Firebase predeterminado es `rumbo-39749` y está indicado en `.firebaserc`. `firebase.json` configura Hosting para servir `dist` y redirigir las rutas de Vue Router a `index.html`. La web publicada está en https://rumbo-39749.web.app.
+HEAD
+El proyecto Firebase predeterminado es `rumbo-39749` y está indicado en `.firebaserc`. `firebase.json` configura Hosting para servir `dist` y redirigir las rutas de Vue Router a `index.html`. 
+La web publicada está en https://rumbo-39749.web.app.
 
 ## Componentes propios
 
@@ -76,9 +77,9 @@ La colección utilizada es `destinations`. Cada documento debe incluir estos cam
 - `price`: precio orientativo (número).
 - `image`: URL directa de la imagen (texto).
 
-Las reglas están en `firestore.rules`: permiten lecturas públicas de esta colección y deniegan escrituras. Los datos de una colección con lectura pública pueden consultarse sin iniciar sesión. La configuración web de Firebase de `src/firebase.js` es visible en el cliente; no incluyas claves privadas ni credenciales de cuentas de servicio.
-=======
+Las reglas están en `firestore.rules`: permiten lecturas públicas de esta colección y deniegan escrituras. Los datos de una colección con lectura pública pueden consultarse sin iniciar sesión. 
+La configuración web de Firebase de `src/firebase.js` es visible en el cliente; no incluyas claves privadas ni credenciales de cuentas de servicio.
+
 El proyecto predeterminado de Firebase se define en `.firebaserc`. Para apuntar a otro proyecto, usa `firebase use --add` y selecciona el proyecto correspondiente.
-=======
+
 # Rumbo
->>>>>>> cc18908fdd7f6141a47b373a4873f72c0abc3aa2
