@@ -1,8 +1,5 @@
 HEAD
 # Rumbo - Agencia de viajes
-=======
-HEAD
-# Rumbo, agencia de viajes
 
 ## Temática y descripción
 
