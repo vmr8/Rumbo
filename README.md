@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 # Rumbo, agencia de viajes
 
 Aplicacion de Vue 3 y Vite con rutas de Vue Router y destinos leidos desde Cloud Firestore. Firebase Hosting publica el build de produccion desde `dist`.
@@ -38,4 +38,3 @@ firebase deploy --only hosting,firestore:rules
 El proyecto predeterminado de Firebase se define en `.firebaserc`. Para apuntar a otro proyecto, usa `firebase use --add` y selecciona el proyecto correspondiente.
 =======
 # Rumbo
->>>>>>> 714d3b9ab0a3b004c80fce0267ce8958d639cc20
